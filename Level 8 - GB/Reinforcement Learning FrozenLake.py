@@ -162,3 +162,4 @@ for t in range(episodes):
 plt.plot(sum_rewards)
 plt.savefig('frozen_lake8x8.png')
 
+
