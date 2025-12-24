@@ -55,8 +55,8 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 
 ### **💜 A Reminder:**
 
-***We ain't gonna give up!***
-*We create and iterate.*
+***Consistency beats perfection.***
+*We are polished through our iteration.*
 
 > ### Link to the blog talking about these projects (in french and english):
 > ### [Blog Reinforcement Learning LunarLander Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
