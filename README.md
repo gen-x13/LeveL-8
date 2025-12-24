@@ -58,6 +58,6 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 ***We ain't gonna give up!***
 *We create and iterate.*
 
->>>> ### Link to the blog talking about these projects (in french and english):
->>>> ### [Blog Reinforcement Learning LunarLander Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
->>>> ### [Blog Reinforcement Learning FrozenLake Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
+> ### Link to the blog talking about these projects (in french and english):
+> ### [Blog Reinforcement Learning LunarLander Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
+> ### [Blog Reinforcement Learning FrozenLake Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
