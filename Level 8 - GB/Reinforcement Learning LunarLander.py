@@ -11,7 +11,6 @@
 # Reward: Points, Money, etc.
 
 # f(s) = a, or: what action to perform when in a given state.
-# 
 # f(state) = action, in other words.
 
 # This function is called: Action Policy.
@@ -32,13 +31,12 @@
 # Q(S, A) table <- data updated for the purpose of predicting future
 # rewards by choosing certain actions in the present.
 
-
 # Initially, the table is filled with random values.
 
 # BellMan equation (screen + ML Book): (expected total score)
     # Q(S,A) = E*[R(S') + y*max*Q(S', A')]
     
-# Table updated using the equation and the reward obtained:
+# The table updated using the equation and the reward obtained:
     # Q(S,A) = (1-n)*Q(S,A)+n*(R(S') + y*max*Q(S', A'))
     # n = learning rate
     
@@ -82,7 +80,7 @@ env.close() # closing environment
     # - right tilt (left engine),
     # - left tilt (right engine)
     
-# Status = position in space
+# State = position in space
 
 # Rewards:
     # + 100 pts: descent and landing without damage
@@ -175,3 +173,4 @@ for episode in range (episodes) :
 
 # Closure of the environment
 env.close()
+
