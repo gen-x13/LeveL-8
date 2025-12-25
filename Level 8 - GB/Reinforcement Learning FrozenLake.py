@@ -8,7 +8,6 @@ import numpy as np
 import logging
 import random
 import matplotlib.pyplot as plt
-import pickle
 
 # Elf Configuration :
 # Four Actions :
@@ -93,7 +92,7 @@ for i in range(episodes):
     terminated = False      # True when fall in hole or reached goal
     truncated = False       # True when actions > 200
     
-    total_reward = 0
+    total_reward = 0        # total_reward per episodes
     
     # While Loop : Repetitive action until terminated or truncated
     while(not terminated and not truncated):
@@ -111,18 +110,13 @@ for i in range(episodes):
         # terminated or truncated
         new_state, reward, terminated, truncated, info = env.step(action)
         
-        # Retrieving old values and adding new ones to the table
-        # old_value = q_table[state][action] # Actual Q value
-        #next_max = np.max(q_table[new_state]) 
-    
+        # Retrieving old values and adding new ones to the table    
         if terminated:
             next_max = reward
         else:
             next_max = reward + gamma * np.max(q_table[new_state,:]) # Max Q value of state S'
         
         # Update table q with Bellman's formula
-        # q_table[state][action] = (1 - alpha) * old_value + alpha * next_max
-        
         q_table[state, action] += alpha * (next_max - q_table[state, action])
         
         # Refresh status and total number of rewards
@@ -131,10 +125,9 @@ for i in range(episodes):
         
     # Epsilon Reduction
     epsilon = max(epsilon - epsilon_decay, epsilon_min)
-
     if epsilon<=epsilon_min:
         alpha = 0.0001
-
+    # Rewards per episodes stored 
     if total_reward == 1:
         rewards_per_episode[i] = 1
     
@@ -156,10 +149,13 @@ for i in range(episodes):
                 
 env.close() # closing environment
 
+# Visualization of the rewards gained each episodes
 sum_rewards = np.zeros(episodes)
 for t in range(episodes):
     sum_rewards[t] = np.sum(rewards_per_episode[max(0, t-100):(t+1)])
 plt.plot(sum_rewards)
+# Saving the figure picture
 plt.savefig('frozen_lake8x8.png')
+
 
 
