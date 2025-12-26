@@ -8,7 +8,7 @@
   There is only one version available:
   - 🇬🇧 **English version**: Includes English commentary (`-en`).
 
-- **🛠 Tech Stack:** Python, Gymnasium, Numpy, Logging, Pickle, Matplotlib, Random.
+- **🛠 Tech Stack:** Python, Gymnasium, Numpy, Logging, Matplotlib, Random.
 - **⏳ Time to complete:** 2/3 hours for each practice.  
 
 ### **💭 My thoughts on this project:**  
@@ -42,7 +42,7 @@ Level 8 - GB/Frozen Lake recordings
 ### **📦 Requirements**  
 Before running the project, make sure you have the following libraries installed:  
 ```bash
-pip install gymnasium[all], numpy, logging, pickle, matplotlib, random.
+pip install gymnasium[all], numpy, logging, matplotlib, random.
 
 ```
 ---
@@ -60,4 +60,4 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 
 > ### Link to the blog talking about these projects (in french and english):
 > ### [Blog Reinforcement Learning LunarLander Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
-> ### [Blog Reinforcement Learning FrozenLake Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
+> ### [Blog Reinforcement Learning FrozenLake Link](https://ko-fi.com/post/Reinforcement-Learning-Part-2-Apprentissage-par-A0A61QVPR1)
