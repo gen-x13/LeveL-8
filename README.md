@@ -12,7 +12,7 @@
 - **⏳ Time to complete:** 2/3 hours for each practice.  
 
 ### **💭 My thoughts on this project:**  
-This is my **thirteenth project**, and I followed a tutorial for LunarLander.
+This is my **thirteenth project**, and I followed a tutorial for LunarLander  and Frozen Lake.
 - LunarLander was my first try and was quite easy to learn.
 - FrozenLake made me understand how this work through practicing alone before getting help with tutorials and research.
 
