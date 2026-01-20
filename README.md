@@ -58,6 +58,6 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 ***Consistency beats perfection.***
 *We are polished through our iteration.*
 
-> ### Link to the blog talking about these projects (in french and english):
+> ### Link to the bilingual blogs talking about these projects (french & english):
 > ### [Blog Reinforcement Learning LunarLander Link](https://ko-fi.com/post/Reinforcement-Learning-Apprentissage-par-renforc-L4L41QHV3T)
 > ### [Blog Reinforcement Learning FrozenLake Link](https://ko-fi.com/post/Reinforcement-Learning-Part-2-Apprentissage-par-A0A61QVPR1)
